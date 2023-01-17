@@ -298,10 +298,10 @@ function check5level() {
 function check6level() {
  count_population();
 
- if (count == 12 && population == 20) {
+ if (count == 11 && population == 12) {
  stopLife();
  document.getElementById('info').innerHTML = 'You score';
- } else if (count >12 && population != 20) {
+ } else if (count >11 && population != 12) {
  stopLife();
  document.getElementById('info').innerHTML = 'Didn’t work, Try again';
  }
