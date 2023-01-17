@@ -176,10 +176,10 @@ function level6(){
   mas[22][20]=1;
   mas[21][21]=1;
   level=6;
-  population=12;
+  population=4;
   document.getElementById('popul').innerHTML = population;
  document.getElementById('info').innerHTML =
- 'Размер популяции должен быть равен 12 к 20 поколению';
+ 'Размер популяции должен быть равен 11 к 12 поколению';
  drawField();
 }
 function level2() {
@@ -298,13 +298,12 @@ function check5level() {
 function check6level() {
  count_population();
 
- if (count == 13 && population == 12) {
+ if (count == 11 && population == 12) {
  stopLife();
  document.getElementById('info').innerHTML = 'You score';
- } else if (count >13 && population != 12) {
+ } else if (count >11 && population != 12) {
  stopLife();
  document.getElementById('info').innerHTML = 'Didn’t work, Try again';
  }
 }
-
 
