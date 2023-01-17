@@ -175,8 +175,8 @@ function level6(){
   mas[20][20]=1;
   mas[22][20]=1;
   mas[21][21]=1;
-  level=2;
-  population=4;
+  level=6;
+  population=12;
   document.getElementById('popul').innerHTML = population;
  document.getElementById('info').innerHTML =
  'Размер популяции должен быть равен 12 к 20 поколению';
